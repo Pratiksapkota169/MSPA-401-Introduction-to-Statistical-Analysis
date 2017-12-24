@@ -1,5 +1,9 @@
+#install.packages("dplyr")
+#install.packages("tidyverse")
+#install.packages("lubridate")
 library('dplyr')
-
+library('tidyverse')
+library('lubridate')
 df1<-read.csv(file = "INSITE report 20171024 (all tables).csv",header=TRUE, sep=",")
 
 df <- df1 %>% dplyr:: select(-grep("units", names(df1)), -grep("Unit", names(df1)))

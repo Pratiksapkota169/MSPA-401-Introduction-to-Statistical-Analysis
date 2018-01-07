@@ -448,3 +448,21 @@ col.list[cylinders == "8"] <- 3 # Denotes "red" from the palette.
 plot(hp, mpg, pch = 16, col = c(color[col.list]), main = "MPG vs HP") 
 legend(x = 250, y = 30,legend = paste("Cylinders", seq(4, 8, 2)), col = c(color), pch = 16) 
 lines(lowess(mtcars$hp, mtcars$mpg, 0.5), lwd = 2) 
+
+
+data("ChickWeight")
+m.weight<-aggregate(weight~Time+Diet,data=ChickWeight,mean)
+m.weight<-subset(m.weight,(Time>=10)&(Time<=20))
+time<-m.weight$Time
+weight<-m.weight$weight
+diet<-m.weight$Diet
+c<-seq(8,20,2)/24 #creates color variation by week using rgb()
+
+plot(time[diet=="1"],weight[diet=="1"],type="b",ylim=c(0,300),pch=16,
+xlab="Week",ylab="Mean Weight",main="Weight by Week",col=rgb(c,c,0),lwd=2)
+
+lines(time[diet=="2"],weight[diet=="2"],type='b',col=rgb(c,0,+0),pch=16,lwd=2)
+lines(time[diet=="3"],weight[diet=="3"],type='b',col=rgb(0,c,+0),pch=16,lwd=2)
+lines(time[diet=="4"],weight[diet=="4"],type='b',col=rgb(0,0,+c),pch=16,lwd=2)
+
+legend(x=18,y=100,legend=paste(c("Diet 1, yellow","Diet 2, red", "Diet 3, blue","Diet 4, green")))

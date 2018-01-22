@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1516325307927.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2459640620",
+    "id" : "CB4CA658",
+    "lastKnownWriteTime" : 1515981174,
+    "last_content_update" : 1515981174,
+    "path" : "C:/NorthWestern_Courses/MSPA-401-Introduction-to-Statistical-Analysis/week1_401/Demonstration Code for Week 1.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "165,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

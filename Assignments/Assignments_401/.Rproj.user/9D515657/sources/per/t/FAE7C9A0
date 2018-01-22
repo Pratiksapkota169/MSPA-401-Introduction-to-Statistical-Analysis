@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1516325354190.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2153449138",
+    "id" : "FAE7C9A0",
+    "lastKnownWriteTime" : 1516066909,
+    "last_content_update" : 1516066909,
+    "path" : "C:/NorthWestern_Courses/MSPA-401-Introduction-to-Statistical-Analysis/week1_401/Handouts/Various Quartile Calculations.r",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "88,0",
+        "scrollLine" : "56"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

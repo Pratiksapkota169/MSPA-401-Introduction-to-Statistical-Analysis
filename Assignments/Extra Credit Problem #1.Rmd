@@ -1,0 +1,32 @@
+---
+title: "Extra Credit Problem #1 (5 points)"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This problem illustrates quartile calculations using random samples of different sizes from the standard normal distribution.
+
+Use *set.seed(1237)* and *rnorm(n, mean = 0, sd = 1)* with *n* = 10, *n* = 30, *n* = 100 and *n* = 300 to draw four different random samples from the standard normal distribution. Reset *set.seed(1237)* prior to drawing each of the four samples.
+
+For each sample, calculate the first, second and third quartile using *quantile()*. Use "type = 2" (method used in Business Statistics) and "type = 7" (R default) and generate quartiles for each.
+
+Display the results. The quartiles for the standard normal distribution are -0.6745, 0.0 and +0.6745 as shown using *qnorm(c(0.25, 0.5, 0.75), mean = 0, sd = 1, lower.tail = TRUE)*.  Note below.
+
+```{r standardNormalQuartiles}
+
+qnorm(c(0.25, 0.5, 0.75), mean = 0, sd = 1, lower.tail = TRUE)
+
+```
+
+Take note of the results for the first and third quartile. Compare the computed results between the two methods (type = 2 and type = 7). Comment on the rate of convergence for these estimates as the sample size is increased. What does this exercise indicate about describing a population distribution with samples?
+
+```{r ecp1}
+# Add your set.seed(), rnorm() and quantile() code to this code 'chunk':
+
+
+```
+
+

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1516324796365.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "672666051",
+    "id" : "C719CE24",
+    "lastKnownWriteTime" : 1516422250,
+    "last_content_update" : 1516422250072,
+    "path" : "C:/NorthWestern_Courses/MSPA-401-Introduction-to-Statistical-Analysis/Assignments/Assignments_401/quiz1_401.R",
+    "project_path" : "quiz1_401.R",
+    "properties" : {
+        "cursorPosition" : "110,1",
+        "scrollLine" : "100",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

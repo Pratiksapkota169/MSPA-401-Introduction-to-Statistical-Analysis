@@ -2,6 +2,7 @@
 title: 'Data Analysis Assignment #1 (50 points total)'
 author: "lastName, firstName"
 output:
+  pdf_document: default
   html_document: default
 ---
 
@@ -172,7 +173,7 @@ Using this sample, construct a scatterplot matrix of variables 2-6 with *plot(wo
 
 ```
 
-**Question (1 point):  What are your observations regarding the results in (3)(b)?  **
+**Question (2 points):  What are your observations regarding the results in (3)(b)?  **
 
 ***Answer: (Enter your answer here.)    ***
 
@@ -186,7 +187,7 @@ Using this sample, construct a scatterplot matrix of variables 2-6 with *plot(wo
 
 ```
 
-**Question (3 points) How well do you think these variables would perform as predictors of age?**
+**Question (5 points) How well do you think these variables would perform as predictors of age?**
 
 ***Answer: (Enter your answer here.)    ***
 
@@ -219,11 +220,11 @@ Please respond to each of the following questions (10 points total):
 
 ***Answer: (Enter your answer here.)    ***
 
-** Question 2) (3 points) Setting the abalone data and analysis aside, if you were presented with an overall histogram and summary statistics from a sample and no other information, what questions might you ask before accepting them as representative of the sampled population?**
+** Question 2) (4 points) Setting the abalone data and analysis aside, if you were presented with an overall histogram and summary statistics from a sample and no other information, what questions might you ask before accepting them as representative of the sampled population?**
 
 ***Answer: (Enter your answer here.)    ***
 
-**Question 3)  (2 points)	What do you see as difficulties when drawing conclusions from observational studies? Can causality be determined?  What might be learned from such studies?**
+**Question 3)  (4 points)	What do you see as difficulties when drawing conclusions from observational studies? Can causality be determined?  What might be learned from such studies?**
 
 ***Answer: (Enter your answer here.)    ***
 

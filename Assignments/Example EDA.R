@@ -9,7 +9,9 @@ require(ggplot2)
 # The Consumer Food Database is described in the "Analyzing the Databases" section 
 # of Chapter 1 Black page 15.  
 
-food <- read.csv(file.path("c:/RBlack/","Food.csv"),sep=",")
+#food <- read.csv(file.path("c:/RBlack/","Food.csv"),sep=",")
+food <- read.csv("C:/NorthWestern_Courses/MSPA-401-Introduction-to-Statistical-Analysis/Assignments/food.csv")
+
 str(food)
 
 # The variables Region and Location are read in as integers.  They are nominal

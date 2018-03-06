@@ -82,7 +82,7 @@ hist(shoppers$Spending)
 library("psych")
 describe(shoppers)
 quantile(shoppers$Spending,0.1)
-
+   
 range <- function(x) {max(x, na.rm = TRUE) - min(x, na.rm = TRUE)}
 summary_stats <- function(x) { 
   stats <- data.frame(rbind(mean(x, na.rm = TRUE), 

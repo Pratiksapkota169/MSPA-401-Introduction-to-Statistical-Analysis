@@ -14,7 +14,7 @@
 require(moments)
 require(ggplot2)
 
-prices <- read.csv(file.path("c:/Rdata/","homes.csv"),sep=",")
+prices <- read.csv(file.path("C:/NorthWestern_Courses/MSPA-401-Introduction-to-Statistical-Analysis/Code and Data/","homes.csv"),sep=",")
 str(prices)
 summary(prices)
 

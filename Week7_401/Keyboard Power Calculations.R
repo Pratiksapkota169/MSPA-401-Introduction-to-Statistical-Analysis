@@ -1,6 +1,6 @@
 # Power Calculation Program Using the Keyboard Experiment Data
 
-keyboard <- read.csv(file.path("c:/R401/", "keyboard.csv"), sep=",")
+keyboard <- read.csv(file.path("C:\\NorthWestern_Courses\\MSPA-401-Introduction-to-Statistical-Analysis\\Week7_401", "keyboard.csv"), sep=",")
 str(keyboard)
 
 difference <- keyboard$STYLE_B - keyboard$STYLE_A
